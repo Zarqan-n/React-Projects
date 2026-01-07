@@ -43,7 +43,7 @@ const App = () => {
       <div className="flex gap-2">
         <button
           onClick={prev}
-          style={{ opacity: page == 1 ? 0.5 : 1 }}
+          style={{ opacity: page == 1 ? 0.6 : 1 }}
           className=" py-2 rounded text-blue-950 font-bold px-5 bg-amber-500"
         >
           Prev
