@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Cards from "../src/components/Cards";
 
 const App = () => {
@@ -17,12 +17,11 @@ const App = () => {
   }, [page]);
 
   let printdata = <h3 className="font-bold text-xl">Loading...</h3>;
+
   if (userData.length > 0) {
-    console.log(printdata);
     printdata = userData.map(function (elem, idx) {
       return <Cards key={idx} elem={elem} />;
     });
-    console.log(printdata);
   }
 
   function next() {

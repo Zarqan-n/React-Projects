@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+.cont{
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.card{
+  background-color: aqua;
+  display: flex;
+  padding: 5px 10px;
+}
